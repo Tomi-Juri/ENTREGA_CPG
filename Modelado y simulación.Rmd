@@ -1,0 +1,30 @@
+---
+title: "Simulación y Modelado"
+author: "CPG - HTML"
+date: "2024-04-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Modelado y simulación
+
+El documento trata varios aspectos relacionados con el modelado y la simulación de eventos discretos. Se discuten los diferentes tipos de modelos matemáticos, los niveles de conocimiento en la clasificación de Klir, y los conceptos de análisis, inferencia y diseño de sistemas. Se presenta un marco formal que define cinco entidades (sistema fuente, base de datos del comportamiento, modelo, simulador y marco experimental) y dos relaciones entre ellas (relación de modelado y relación de simulación). Se describen las diferencias entre los tipos de modelos matemáticos y se analiza qué características debe tener un modelo para ser de tiempo discreto, así como la manera de describir y simular este tipo de modelos. También se explora el concepto de autómata celular y su descripción y simulación, así como las características de los modelos de eventos discretos y las diferencias entre la descripción orientada a la planificación de eventos y la orientada a los procesos. Se detallan los pasos típicos de un estudio de simulación que emplea modelos estocásticos de eventos discretos, y se menciona el uso del lenguaje R para crear programas y representaciones gráficas de datos.
+
+En resumen, el documento ofrece una visión integral sobre el modelado y la simulación de eventos discretos, abordando desde los conceptos básicos hasta la aplicación práctica con ejemplos y herramientas como el lenguaje R.
+
+Este resumen resalta los aspectos principales del PDF, proporcionando una visión general de los temas tratados y su importancia en el campo del modelado y la simulación de eventos discretos.
+
+Resumen: Este artículo aborda el estudio de autómatas celulares unidimensionales, enfocándose en su distribución espacial, reglas de evolución y simulación. Se analiza cómo un autómata unidimensional está compuesto por una fila de células cuyo estado evoluciona en pasos discretos según reglas predefinidas. Se explora la influencia de las células vecinas en la evolución del sistema y se presentan ejemplos concretos de patrones emergentes. Además, se discute la importancia de la simulación en la comprensión y análisis de estos sistemas complejos.
+
+Introducción: Los autómatas celulares unidimensionales son modelos matemáticos que permiten estudiar la evolución de sistemas dinámicos a partir de reglas locales simples. En este artículo, se profundiza en la estructura y evolución de estos autómatas, destacando su relevancia en campos como la biología, la física y la informática. Se subraya la importancia de comprender la influencia de las células vecinas en la evolución del sistema y se presenta la simulación como una herramienta esencial para el análisis de estos sistemas complejos.
+
+Desarrollo: El estudio de autómatas celulares unidimensionales se centra en la distribución espacial de las células y su evolución a lo largo del tiempo. Estos sistemas consisten en una fila de células, cada una con un estado que evoluciona basado en reglas de transición. La evolución del sistema ocurre en pasos discretos, donde el estado de cada célula depende del estado de sus células vecinas.
+
+Se profundiza en las reglas de transición de estados en un autómata unidimensional, mostrando cómo pequeñas variaciones en la distribución inicial de células pueden llevar a patrones complejos y comportamientos emergentes en el sistema. Se presentan ejemplos concretos que ilustran la evolución de autómatas unidimensionales bajo diferentes configuraciones iniciales, destacando la importancia de entender la influencia de las células vecinas en el sistema.
+
+La simulación de autómatas unidimensionales se presenta como una herramienta crucial para el análisis y comprensión de estos sistemas complejos. Se discute el proceso de simulación, desde la definición de las reglas de evolución hasta la representación visual de los resultados obtenidos. Se enfatiza la importancia de disponer de información detallada sobre el sistema a simular y de documentar y aplicar efectivamente los resultados obtenidos en la simulación.
+
+Conclusiones: Los autómatas celulares unidimensionales representan un campo de estudio fascinante que permite explorar la evolución de sistemas complejos a partir de reglas locales simples. La influencia de las células vecinas en la evolución del sistema y la importancia de la simulación en su análisis y comprensión son aspectos clave a considerar. Se subraya la importancia de documentar y aplicar de manera efectiva los resultados de la simulación para su correcta interpretación y aplicación en diversos campos de estudio.
